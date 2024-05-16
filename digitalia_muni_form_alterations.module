@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for digitalia_muni_form_alterations module.
+ */
+function digitalia_muni_form_alterations_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+
+$form['#attached']['library'][] = "digitalia_muni_form_alterations/custom_lib";
+
+}

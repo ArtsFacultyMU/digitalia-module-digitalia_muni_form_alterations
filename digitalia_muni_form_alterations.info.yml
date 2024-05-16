@@ -1,0 +1,5 @@
+name: 'digitalia_muni_form_alterations'
+type: module
+description: 'Form alterations in CSS or Javascipt'
+package: custom
+core_version_requirement: ^10 || ^11
