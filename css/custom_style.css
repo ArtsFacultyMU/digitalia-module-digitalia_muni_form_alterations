@@ -2,3 +2,11 @@ textarea.form-textarea.resize-vertical {
   resize: both;
 }
 
+@media (min-width: 61rem) {
+#node-chapter-form .layout-region--node-main,
+#node-article-form .layout-region--node-main,
+#node-chapter-edit-form .layout-region--node-main,
+#node-article-edit-form .layout-region--node-main {
+     width: auto;
+  }
+} 
