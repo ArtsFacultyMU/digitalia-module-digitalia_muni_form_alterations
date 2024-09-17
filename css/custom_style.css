@@ -2,6 +2,10 @@ textarea.form-textarea.resize-vertical {
   resize: both;
 }
 
+div.field--name-field-references textarea.form-element {
+  max-width: inherit;
+}
+
 @media (min-width: 61rem) {
 #node-chapter-form .layout-region--node-main,
 #node-article-form .layout-region--node-main,
