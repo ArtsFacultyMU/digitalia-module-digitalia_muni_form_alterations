@@ -9,3 +9,5 @@ function digitalia_muni_form_alterations_form_alter(&$form, \Drupal\Core\Form\Fo
 $form['#attached']['library'][] = "digitalia_muni_form_alterations/custom_lib";
 
 }
+
+?>
