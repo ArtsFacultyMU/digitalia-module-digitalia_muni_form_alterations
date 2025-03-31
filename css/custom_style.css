@@ -1,3 +1,4 @@
+/* begin: digilib. phil.muni.cz */
 textarea.form-textarea.resize-vertical {
   resize: both;
 }
@@ -14,3 +15,37 @@ div.field--name-field-references textarea.form-element {
      width: auto;
   }
 } 
+/* end: digilib.phil.muni.cz */
+
+
+/* begin: rapcor.phil.muni.cz */
+
+/* inlining Acquisition */
+#edit-field-acquisition-0 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#edit-field-acquisition-0 > div.form-item--field-acquisition-0-status,
+#edit-field-acquisition-0 > div.form-item--field-acquisition-0-place,
+#edit-field-acquisition-0 > div.form-item--field-acquisition-0-subject,
+#edit-field-acquisition-0 > div.form-item--field-acquisition-0-verification,
+#edit-field-acquisition-0 > div.form-item--field-acquisition-0-note {
+  flex-basis: 100%;
+}
+
+#edit-field-acquisition-0 > div.form-item--field-acquisition-0-date-day {
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+#edit-field-acquisition-0 > div.form-item--field-acquisition-0-date-month {
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+#edit-field-acquisition-0 > div.form-item--field-acquisition-0-date-year {
+  width: 5rem;
+  margin-right: 2rem;
+}
+/* end: rapcor.phil.muni.cz */
